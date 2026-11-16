@@ -40,6 +40,16 @@ This repository is a hackathon prototype or supporting tool. Follow the project-
 
 Предлагаемые решения ориентировались на разработки в рамках https://github.com/KirpaDmitriy/boostformers/ и https://github.com/KirpaDmitriy/Podruchniy/.
 
+## Project checks
+
+Prepare the Python SDK selected by `.github/workflows/check.yml`, then run
+`just setup` to create the local environment from the existing requirements.
+`just check` parses the maintained app and client-test source without importing it,
+writing bytecode or contacting a provider. `just test` runs the retained client
+regressions; `just verify` runs both. These checks cover the maintained demo, while
+historical research under `experiments/` remains outside its execution path.
+Public CI uses the same commands. No application or cloud provider is started by them.
+
 ## Maintained local demo
 
 ```sh
