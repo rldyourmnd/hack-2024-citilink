@@ -15,8 +15,8 @@ jobs:
     with:
       hosted-runner: ubuntu-24.04
       timeout-minutes: 15
-      python-version: '3.12.16'
-      uv-version: '0.13.7'
+      python-version: '3.15.2'
+      uv-version: '0.13.8'
       setup: true
     permissions:
       contents: read
