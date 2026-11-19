@@ -1,4 +1,4 @@
-streamlit==1.49.1
+streamlit==1.54.0
 requests==2.33.0
 xmltodict==1.0.2
 python-dotenv==1.2.2
